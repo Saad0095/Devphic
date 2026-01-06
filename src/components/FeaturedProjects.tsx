@@ -66,19 +66,15 @@ export default function FeaturedProjects() {
                             className="group relative overflow-hidden rounded-2xl bg-gray-800 border border-gray-700 hover:border-cyan-500/30 transition-all duration-500 cursor-pointer"
                         >
                             {/* Image */}
-                            <div className="relative h-64 w-full">
+                            <div className="relative h-64 w-full bg-gray-700/50">
                                 <Image
                                     src={project.image}
                                     alt={`${project.title} project preview`}
                                     fill
-                                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                                    className="object-contain transition-transform duration-700 group-hover:scale-110"
                                     sizes="(max-width: 768px) 100vw, 33vw"
                                 />
 
-                                {/* Gradient Overlay */}
-                                <div
-                                    className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-20`}
-                                />
                             </div>
 
                             {/* Hover Overlay */}
