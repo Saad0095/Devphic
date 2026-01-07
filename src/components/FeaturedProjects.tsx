@@ -25,7 +25,7 @@ export default function FeaturedProjects() {
             title: "Brand Identity & Banner Designs",
             desc: "Collection of branded banners and marketing creatives including social media posts, ads, and promotional visuals",
             tech: ["Figma", "Photoshop", "Canva"],
-            image: "/projects/branding-suite.jpg",
+            image: "/projects/branding-suite.png",
             gradient: "from-purple-500 to-pink-500",
             category: "Graphic Design & Branding",
         },
