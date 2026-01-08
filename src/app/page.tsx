@@ -1,13 +1,15 @@
-import Contact from "../components/Contact";
-import CTASection from "../components/CTASection";
-import FeaturedProjects from "../components/FeaturedProjects";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Navigation from "../components/Navigation";
-import Process from "../components/Process";
-import Services from "../components/Services";
-import TrustStrip from "../components/TrustStrip";
-import WhyDevphic from "../components/WhyDevphic";
+import dynamic from "next/dynamic";
+
+const Navigation = dynamic(() => import("../components/Navigation"));
+const Hero = dynamic(() => import("../components/Hero"));
+const TrustStrip = dynamic(() => import("../components/TrustStrip"));
+const Services = dynamic(() => import("../components/Services"));
+const WhyDevphic = dynamic(() => import("../components/WhyDevphic"));
+const Process = dynamic(() => import("../components/Process"));
+const FeaturedProjects = dynamic(() => import("../components/FeaturedProjects"));
+const CTASection = dynamic(() => import("../components/CTASection"));
+const Contact = dynamic(() => import("../components/Contact"));
+const Footer = dynamic(() => import("../components/Footer"));
 
 export default function Home() {
   return (
@@ -23,5 +25,5 @@ export default function Home() {
       <Contact />
       <Footer />
     </main>
-  )
+  );
 }
