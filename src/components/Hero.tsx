@@ -110,7 +110,6 @@ export default function Hero() {
             </motion.button>
           </motion.div>
 
-          {/* Social proof - simplified */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -119,7 +118,7 @@ export default function Hero() {
           >
             <div className="flex items-center gap-2">
               <CheckCircle2 size={16} className="text-cyan-500" />
-              <span>Trusted by 50+ startups</span>
+              <span>Real world projects</span>
             </div>
             <div className="w-1 h-1 rounded-full bg-gray-700" />
             <div className="flex items-center gap-2">
