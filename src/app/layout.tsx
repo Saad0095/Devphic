@@ -59,6 +59,9 @@ export const metadata = {
       "We build scalable, high-performance websites using modern technologies.",
     images: ["/og-image.png"],
   },
+  verification: {
+    google: "pNY7AokCGmYrhK5wkwchkb49vG0tYTQpsOChDYLE8TQ",
+  },
 };
 
 
