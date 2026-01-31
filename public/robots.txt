@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://devphic.vercel.app/sitemap.xml
+Disallow: /api/
